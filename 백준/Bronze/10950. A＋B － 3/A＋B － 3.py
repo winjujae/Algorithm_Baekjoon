@@ -1,7 +1,7 @@
-T = int(input())
-k = []
-for i in range(1,T+1):
-    a, b = map(int,input().split())
-    k.append(a + b)
-for i in range(1,T+1):
-    print(k[i-1])
+n = int(input())
+lst = []
+for i in range(n) :
+  a, b = map(int,input().split())
+  lst.append(a+b)
+for i in range(n) :
+  print(lst[i])

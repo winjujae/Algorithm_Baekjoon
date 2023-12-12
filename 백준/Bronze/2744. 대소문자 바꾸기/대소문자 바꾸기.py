@@ -6,3 +6,6 @@ for char in str :
   else :
     result_str += char.lower()
 print(result_str)
+
+#2
+print(input().swapcase())

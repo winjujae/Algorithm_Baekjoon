@@ -10,3 +10,11 @@ if cnt == len(n) :
   print("1")
 else :
   print("0")
+
+#2
+palindrome = input()
+
+if palindrome[::1] == palindrome[::-1]:
+    print(1)
+else:
+    print(0)

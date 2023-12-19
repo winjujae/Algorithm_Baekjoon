@@ -19,3 +19,9 @@ else :
     new_b1 = b
     new_a1 = a
 print(new_a1, new_b1, new_c)
+
+#2
+h,m,s=map(int,input().split())
+s+=int(input())
+m+=s//60
+print((h+m//60)%24,m%60,s%60)

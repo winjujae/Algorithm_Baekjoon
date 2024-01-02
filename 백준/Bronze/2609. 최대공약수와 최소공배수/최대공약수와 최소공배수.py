@@ -15,7 +15,6 @@ for i in sub[0] :
         max_sub.append(i)
 print(max(max_sub))
 #print(myset)
-min_dub = []
 for i in myset :
     if i == 1 :
         continue
@@ -28,6 +27,3 @@ k = 1
 for i in min_dub :
     k *= i
 print(k)
-# for i in range(1,min(lst)+1)) :
-#     if max(lst) % i == 0 :
-#         max_sub = i

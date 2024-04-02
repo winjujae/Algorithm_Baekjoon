@@ -1,4 +1,4 @@
-#1920번 수 찾기
+#1920번 수 찾기(빠른 입출력)
 def binary_search(arr, target):
     left, right = 0, len(arr) - 1
     while left <= right:
@@ -13,8 +13,8 @@ def binary_search(arr, target):
 
     return 0
 
-#import sys
-#input = sys.stdin.readline
+import sys
+input = sys.stdin.readline
 n = input()
 lst = list(map(int,input().split()))
 lst.sort()
